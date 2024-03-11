@@ -9,25 +9,23 @@ import SwiftUI
 
 struct CardView: View {
     
-    var body: some View {
-        ZStack {
-           CustomBackgroundColor()
-            ZStack{
-                Circle()
-                    .fill(
-                        LinearGradient(
-                            colors: [
-                                Color.colorIndigoMedium ,
-                                Color.colorSalmonLight],
-                            startPoint: .topLeading, 
-                            endPoint: .bottomTrailing))
-                
-                    .frame(width: 250 , height: 250 )
-                
-                Image("image-1")
-                    .resizable()
-                    .scaledToFit()
+    @State private var imageNumber : Int = 1
+    @State private var randomNumber : Int = 1
+    
 
+    
+    
+    var body: some View {
+        
+        ZStack {
+            
+           CustomBackgroundColor()
+            
+            VStack {
+                CardHeaderView()
+                CardContentView(imageName: "image-\(imageNumber)")
+                CardFooterView(imageNumber: $imageNumber,
+                               randomNumber: $randomNumber)
             }
         }
         .frame(width: 320 , height: 570)
@@ -37,3 +35,5 @@ struct CardView: View {
 #Preview {
     CardView()
 }
+
+
