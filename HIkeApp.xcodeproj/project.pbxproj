@@ -8,17 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		2851D61B2B9F059400D8A939 /* HIkeAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2851D61A2B9F059400D8A939 /* HIkeAppApp.swift */; };
-		2851D61D2B9F059400D8A939 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2851D61C2B9F059400D8A939 /* ContentView.swift */; };
+		2851D61D2B9F059400D8A939 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2851D61C2B9F059400D8A939 /* HomeView.swift */; };
 		2851D61F2B9F059700D8A939 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2851D61E2B9F059700D8A939 /* Assets.xcassets */; };
 		2851D6222B9F059700D8A939 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2851D6212B9F059700D8A939 /* Preview Assets.xcassets */; };
+		2851D6312B9F06C800D8A939 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2851D6302B9F06C800D8A939 /* CardView.swift */; };
+		2851D6332B9F085100D8A939 /* CustomBackgroundColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2851D6322B9F085100D8A939 /* CustomBackgroundColor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2851D6172B9F059400D8A939 /* HIkeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HIkeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2851D61A2B9F059400D8A939 /* HIkeAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HIkeAppApp.swift; sourceTree = "<group>"; };
-		2851D61C2B9F059400D8A939 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2851D61C2B9F059400D8A939 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		2851D61E2B9F059700D8A939 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2851D6212B9F059700D8A939 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2851D6302B9F06C800D8A939 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		2851D6322B9F085100D8A939 /* CustomBackgroundColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBackgroundColor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +55,11 @@
 		2851D6192B9F059400D8A939 /* HIkeApp */ = {
 			isa = PBXGroup;
 			children = (
+				2851D6282B9F05D400D8A939 /* Model */,
+				2851D62B2B9F05EB00D8A939 /* ViewModel */,
+				2851D62A2B9F05E800D8A939 /* Views */,
+				2851D62C2B9F05F600D8A939 /* Controllers */,
 				2851D61A2B9F059400D8A939 /* HIkeAppApp.swift */,
-				2851D61C2B9F059400D8A939 /* ContentView.swift */,
 				2851D61E2B9F059700D8A939 /* Assets.xcassets */,
 				2851D6202B9F059700D8A939 /* Preview Content */,
 			);
@@ -65,6 +72,61 @@
 				2851D6212B9F059700D8A939 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2851D6282B9F05D400D8A939 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2851D62A2B9F05E800D8A939 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2851D62F2B9F066A00D8A939 /* HomeViews */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2851D62B2B9F05EB00D8A939 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		2851D62C2B9F05F600D8A939 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2851D62E2B9F063400D8A939 /* Details */,
+				2851D62D2B9F062D00D8A939 /* Core */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		2851D62D2B9F062D00D8A939 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				2851D61C2B9F059400D8A939 /* HomeView.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		2851D62E2B9F063400D8A939 /* Details */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Details;
+			sourceTree = "<group>";
+		};
+		2851D62F2B9F066A00D8A939 /* HomeViews */ = {
+			isa = PBXGroup;
+			children = (
+				2851D6302B9F06C800D8A939 /* CardView.swift */,
+				2851D6322B9F085100D8A939 /* CustomBackgroundColor.swift */,
+			);
+			path = HomeViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +199,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2851D61D2B9F059400D8A939 /* ContentView.swift in Sources */,
+				2851D6332B9F085100D8A939 /* CustomBackgroundColor.swift in Sources */,
+				2851D61D2B9F059400D8A939 /* HomeView.swift in Sources */,
+				2851D6312B9F06C800D8A939 /* CardView.swift in Sources */,
 				2851D61B2B9F059400D8A939 /* HIkeAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
