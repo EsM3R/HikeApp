@@ -7,15 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		283856772B9F1E5000ED05B0 /* CustomButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283856762B9F1E5000ED05B0 /* CustomButtonView.swift */; };
+		283856792B9F202700ED05B0 /* CardContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283856782B9F202700ED05B0 /* CardContentView.swift */; };
+		2838567B2B9F204B00ED05B0 /* CardHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2838567A2B9F204B00ED05B0 /* CardHeaderView.swift */; };
+		2838567E2B9F20F000ED05B0 /* CardFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2838567D2B9F20F000ED05B0 /* CardFooterView.swift */; };
+		283856832B9F250500ED05B0 /* GradientButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283856822B9F250500ED05B0 /* GradientButton.swift */; };
 		2851D61B2B9F059400D8A939 /* HIkeAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2851D61A2B9F059400D8A939 /* HIkeAppApp.swift */; };
 		2851D61D2B9F059400D8A939 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2851D61C2B9F059400D8A939 /* HomeView.swift */; };
 		2851D61F2B9F059700D8A939 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2851D61E2B9F059700D8A939 /* Assets.xcassets */; };
 		2851D6222B9F059700D8A939 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2851D6212B9F059700D8A939 /* Preview Assets.xcassets */; };
 		2851D6312B9F06C800D8A939 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2851D6302B9F06C800D8A939 /* CardView.swift */; };
 		2851D6332B9F085100D8A939 /* CustomBackgroundColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2851D6322B9F085100D8A939 /* CustomBackgroundColor.swift */; };
+		28BBE8712BA4F62200C081D6 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28BBE8702BA4F62200C081D6 /* SettingsView.swift */; };
+		28BBE8742BA4F72500C081D6 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28BBE8732BA4F72500C081D6 /* ListView.swift */; };
+		28BBE8762BA4F73300C081D6 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28BBE8752BA4F73300C081D6 /* HeaderView.swift */; };
+		28BBE8782BA4FA0100C081D6 /* SubHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28BBE8772BA4FA0000C081D6 /* SubHeaderView.swift */; };
+		28BBE87A2BA4FD0F00C081D6 /* FooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28BBE8792BA4FD0F00C081D6 /* FooterView.swift */; };
+		28BBE87C2BA4FE7800C081D6 /* CustomLabeledContenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28BBE87B2BA4FE7800C081D6 /* CustomLabeledContenView.swift */; };
+		28BBE8802BA5011B00C081D6 /* LabeledContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28BBE87F2BA5011B00C081D6 /* LabeledContentViewModel.swift */; };
+		28BBE8822BA50E1F00C081D6 /* AlternateAppIcons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28BBE8812BA50E1E00C081D6 /* AlternateAppIcons.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		283856762B9F1E5000ED05B0 /* CustomButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonView.swift; sourceTree = "<group>"; };
+		283856782B9F202700ED05B0 /* CardContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardContentView.swift; sourceTree = "<group>"; };
+		2838567A2B9F204B00ED05B0 /* CardHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardHeaderView.swift; sourceTree = "<group>"; };
+		2838567D2B9F20F000ED05B0 /* CardFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardFooterView.swift; sourceTree = "<group>"; };
+		283856822B9F250500ED05B0 /* GradientButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientButton.swift; sourceTree = "<group>"; };
 		2851D6172B9F059400D8A939 /* HIkeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HIkeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2851D61A2B9F059400D8A939 /* HIkeAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HIkeAppApp.swift; sourceTree = "<group>"; };
 		2851D61C2B9F059400D8A939 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
@@ -23,6 +41,14 @@
 		2851D6212B9F059700D8A939 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2851D6302B9F06C800D8A939 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		2851D6322B9F085100D8A939 /* CustomBackgroundColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBackgroundColor.swift; sourceTree = "<group>"; };
+		28BBE8702BA4F62200C081D6 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		28BBE8732BA4F72500C081D6 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		28BBE8752BA4F73300C081D6 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		28BBE8772BA4FA0000C081D6 /* SubHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubHeaderView.swift; sourceTree = "<group>"; };
+		28BBE8792BA4FD0F00C081D6 /* FooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterView.swift; sourceTree = "<group>"; };
+		28BBE87B2BA4FE7800C081D6 /* CustomLabeledContenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomLabeledContenView.swift; sourceTree = "<group>"; };
+		28BBE87F2BA5011B00C081D6 /* LabeledContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabeledContentViewModel.swift; sourceTree = "<group>"; };
+		28BBE8812BA50E1E00C081D6 /* AlternateAppIcons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlternateAppIcons.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +62,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2838567F2B9F24C300ED05B0 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				283856822B9F250500ED05B0 /* GradientButton.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
 		2851D60E2B9F059400D8A939 = {
 			isa = PBXGroup;
 			children = (
@@ -55,6 +89,7 @@
 		2851D6192B9F059400D8A939 /* HIkeApp */ = {
 			isa = PBXGroup;
 			children = (
+				2838567F2B9F24C300ED05B0 /* Utility */,
 				2851D6282B9F05D400D8A939 /* Model */,
 				2851D62B2B9F05EB00D8A939 /* ViewModel */,
 				2851D62A2B9F05E800D8A939 /* Views */,
@@ -84,6 +119,7 @@
 		2851D62A2B9F05E800D8A939 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				28BBE8722BA4F6A900C081D6 /* SettingsViews */,
 				2851D62F2B9F066A00D8A939 /* HomeViews */,
 			);
 			path = Views;
@@ -92,6 +128,8 @@
 		2851D62B2B9F05EB00D8A939 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				28BBE87F2BA5011B00C081D6 /* LabeledContentViewModel.swift */,
+				28BBE8812BA50E1E00C081D6 /* AlternateAppIcons.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -109,6 +147,7 @@
 			isa = PBXGroup;
 			children = (
 				2851D61C2B9F059400D8A939 /* HomeView.swift */,
+				28BBE8702BA4F62200C081D6 /* SettingsView.swift */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -124,9 +163,25 @@
 			isa = PBXGroup;
 			children = (
 				2851D6302B9F06C800D8A939 /* CardView.swift */,
+				2838567A2B9F204B00ED05B0 /* CardHeaderView.swift */,
+				283856782B9F202700ED05B0 /* CardContentView.swift */,
+				2838567D2B9F20F000ED05B0 /* CardFooterView.swift */,
 				2851D6322B9F085100D8A939 /* CustomBackgroundColor.swift */,
+				283856762B9F1E5000ED05B0 /* CustomButtonView.swift */,
 			);
 			path = HomeViews;
+			sourceTree = "<group>";
+		};
+		28BBE8722BA4F6A900C081D6 /* SettingsViews */ = {
+			isa = PBXGroup;
+			children = (
+				28BBE8732BA4F72500C081D6 /* ListView.swift */,
+				28BBE8752BA4F73300C081D6 /* HeaderView.swift */,
+				28BBE8772BA4FA0000C081D6 /* SubHeaderView.swift */,
+				28BBE8792BA4FD0F00C081D6 /* FooterView.swift */,
+				28BBE87B2BA4FE7800C081D6 /* CustomLabeledContenView.swift */,
+			);
+			path = SettingsViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,9 +254,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2838567B2B9F204B00ED05B0 /* CardHeaderView.swift in Sources */,
+				28BBE8802BA5011B00C081D6 /* LabeledContentViewModel.swift in Sources */,
+				28BBE87A2BA4FD0F00C081D6 /* FooterView.swift in Sources */,
+				28BBE8782BA4FA0100C081D6 /* SubHeaderView.swift in Sources */,
+				28BBE87C2BA4FE7800C081D6 /* CustomLabeledContenView.swift in Sources */,
+				283856772B9F1E5000ED05B0 /* CustomButtonView.swift in Sources */,
 				2851D6332B9F085100D8A939 /* CustomBackgroundColor.swift in Sources */,
+				2838567E2B9F20F000ED05B0 /* CardFooterView.swift in Sources */,
+				283856832B9F250500ED05B0 /* GradientButton.swift in Sources */,
+				28BBE8712BA4F62200C081D6 /* SettingsView.swift in Sources */,
 				2851D61D2B9F059400D8A939 /* HomeView.swift in Sources */,
+				28BBE8762BA4F73300C081D6 /* HeaderView.swift in Sources */,
+				28BBE8822BA50E1F00C081D6 /* AlternateAppIcons.swift in Sources */,
 				2851D6312B9F06C800D8A939 /* CardView.swift in Sources */,
+				28BBE8742BA4F72500C081D6 /* ListView.swift in Sources */,
+				283856792B9F202700ED05B0 /* CardContentView.swift in Sources */,
 				2851D61B2B9F059400D8A939 /* HIkeAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

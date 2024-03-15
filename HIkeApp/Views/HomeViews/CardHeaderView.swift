@@ -9,6 +9,8 @@ import SwiftUI
 
 struct CardHeaderView: View {
     
+    @State private var isShowSheet : Bool = false
+    
     private let title : String = "Hiking"
     private let subTitle : String = "Fun and enjoyable outdoor activity for friends and families"
     
@@ -26,9 +28,12 @@ struct CardHeaderView: View {
                     )
                 Spacer()
                 Button(action: {
-                    print("user was pressd this area")
+                    isShowSheet.toggle()
                 }, label: {
                     CustomButtonView()
+                })
+                .sheet(isPresented: $isShowSheet, content: {
+                    SettingsView()
                 })
             }
             Text(subTitle)
