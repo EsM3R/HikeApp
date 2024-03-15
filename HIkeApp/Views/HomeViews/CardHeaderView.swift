@@ -34,7 +34,11 @@ struct CardHeaderView: View {
                 })
                 .sheet(isPresented: $isShowSheet, content: {
                     SettingsView()
+                        .presentationDragIndicator(.visible)
+                        .presentationDetents([.medium , .large])
+                        
                 })
+                
             }
             Text(subTitle)
                 .italic()
